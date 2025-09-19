@@ -1,0 +1,6 @@
+Typescript es un javascript tipado
+
+Es más estricto , por lo que es menos propenso a errores .
+Hay que compilarlo y se obtiene un fichero JavaScript
+
+Para correr un test: npx vitest run 'archivo o ruta'

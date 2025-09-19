@@ -1,0 +1,8 @@
+Crear funciones:
+sumArray([1,2,3]) ->6
+numberOfEvens([1,2,3,4])->2
+acronym(['As','Soon','As','Possible'])->ASAP
+
+funcion reduce() -> funcion base para el resto
+Luego hacer los test
+Hacerlo todo con TypeScript

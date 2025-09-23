@@ -6,3 +6,5 @@ acronym(['As','Soon','As','Possible'])->ASAP
 funcion reduce() -> funcion base para el resto
 Luego hacer los test
 Hacerlo todo con TypeScript
+
+implementar filter con reduce (https://github.com/surtich/javascript-2025-2026)

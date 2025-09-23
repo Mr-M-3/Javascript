@@ -1,5 +1,4 @@
 //sumArray([1,2,3]) ->6
-
 function sumArray(...array: number[]): number {
     let suma: number = 0;
     for (let i = 0; i < array.length; i++) {
@@ -22,7 +21,7 @@ function numberOfEvens(...array: number[]): number {
 function acronym(...array: String[]): String {
     let acronimo: String = "";
     for (let i = 0; i < array.length; i++) {
-        acronimo = acronimo + array[i].charAt(0);
+        acronimo = acronimo + array[i].charAt(0).toUpperCase();
     }
     return acronimo;
 }

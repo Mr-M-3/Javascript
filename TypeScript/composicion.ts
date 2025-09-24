@@ -1,0 +1,1 @@
+//Ejercicio , recibir un array de funcones y que te las componga (no se puede definir los tipos correctamente)

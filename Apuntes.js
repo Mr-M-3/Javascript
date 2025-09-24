@@ -63,3 +63,36 @@ for(let valor of array2){
     console.log(valor);
 }
 
+//MIRAR LAS FUNCIONES QUE SE PUEDEN ALMACENAR EN LAS VARIABLES
+
+//mirar diferencia entre == o === (con el triple igual no te deja hacer casting,
+//   miralos tipos el triple igual)
+
+//hay 'verdaderito y falsito' , los valores 'falsitos' son:
+// aquellos que, al evaluarse en un contexto booleano, se consideran como false:
+/* false → el booleano falso literal.
+0 → el número cero.
+-0 → el número cero negativo.
+0n → el cero en tipo BigInt.
+"" → la cadena vacía (comillas simples, dobles o backticks sin contenido).
+null → valor nulo.
+undefined → valor no definido.
+NaN → Not-a-Number.*/
+
+/*ROW FUNCTIONS 
+(mirar que es una funcion anonima y que implica)
+se quita el function
+
+const add = (x:number,y:number)=>{return x +y }
+
+y si solo ocupa una linea :
+const add2 = (x:number,y:number)=> x +y
+
+y si solo tiene un parametro
+const add3 = x:number => x + 1 ;
+
+currificacion:consiste en convertir una funcion que recibe varios aprametros en una
+funcion que recibe un parámetro
+
+Ejercicio: implementar con numero arbitrario de parametros el curry.ts
+*/
